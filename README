@@ -1,0 +1,47 @@
+NAME
+    Dist::Zilla::Plugin::GenBashCompleter - Create bash completer script for
+    your scripts using App::GenBashCompleter
+
+VERSION
+    This document describes version 0.01 of
+    Dist::Zilla::Plugin::GenBashCompleter (from Perl distribution
+    Dist-Zilla-Plugin-GenBashCompleter), released on 2014-11-14.
+
+SYNOPSIS
+    In "dist.ini":
+
+     [GenBashCompleter]
+
+    After build, if there are any of your scripts (e.g. "bin/foo") which
+    App::GenBashCompleter can generate bash completer script for, it will be
+    generated (e.g. "bin/_foo") and added to your build.
+
+DESCRIPTION
+SEE ALSO
+    App::GenBashCompleter
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Dist-Zilla-Plugin-GenBashCompleter>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Dist-Zilla-Plugin-GenBashCompleter>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Gen
+    BashCompleter>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    perlancar <perlancar@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by perlancar@cpan.org.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
